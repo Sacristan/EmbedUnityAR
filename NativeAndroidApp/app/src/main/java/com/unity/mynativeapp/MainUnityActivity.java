@@ -53,7 +53,7 @@ public class MainUnityActivity extends OverrideUnityActivity {
             Button myButton = new Button(this);
             myButton.setText("Show Main");
             myButton.setX(10);
-            myButton.setY(500);
+            myButton.setY(0);
 
             myButton.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
@@ -67,7 +67,7 @@ public class MainUnityActivity extends OverrideUnityActivity {
             Button myButton = new Button(this);
             myButton.setText("Send Msg");
             myButton.setX(320);
-            myButton.setY(500);
+            myButton.setY(0);
             myButton.setOnClickListener( new View.OnClickListener() {
                 public void onClick(View v) {
                     mUnityPlayer.UnitySendMessage("Cube", "ChangeColor", "yellow");
@@ -79,7 +79,7 @@ public class MainUnityActivity extends OverrideUnityActivity {
         {
             Button myButton = new Button(this);
             myButton.setText("Unload");
-            myButton.setX(630);
+            myButton.setX(0);
             myButton.setY(500);
 
             myButton.setOnClickListener(new View.OnClickListener() {
@@ -94,7 +94,7 @@ public class MainUnityActivity extends OverrideUnityActivity {
             Button myButton = new Button(this);
             myButton.setText("Finish");
             myButton.setX(630);
-            myButton.setY(800);
+            myButton.setY(0);
 
             myButton.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
