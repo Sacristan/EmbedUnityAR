@@ -1,4 +1,4 @@
 include ':app'
 
 include ':unityLibrary'
-project(':unityLibrary').projectDir=new File('..\\UnityProject\\unityLibrary')
+project(':unityLibrary').projectDir=new File('..\\UnityAndroidBuild\\unityLibrary')
